@@ -1,3 +1,4 @@
 .ipynb_checkpoints
 pytorch/data
 pytorch/hymenoptera_data
+__pycache__
