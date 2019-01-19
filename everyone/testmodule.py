@@ -1,12 +1,14 @@
-import sys
+#!/usr/bin/env python
 
-a = 1
+import sys                # 標準ライブラリをインポート
+
+a = 1                     # 変数を定義
 b = "some string"
 
-def foo():
+def foo():                # 関数を定義
     print("This is the function 'foo'")
-    
-print("This is the top level")
+
+print("this is the top level") # 文字列を表示
 
 if __name__ == '__main__':
-    print("This is the code block")
+    print("this is the code block")
