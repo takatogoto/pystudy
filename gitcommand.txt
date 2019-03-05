@@ -1,0 +1,90 @@
+*** usual use ***
+git fetch origin dev
+git pull origin dev
+git status
+git add xxxx.py
+git commit -m "any comment"
+git push origin dev
+
+#git push origin master
+
+*** remove file ***
+git rm xxx.py
+git commit -m "any comment"
+git push origin master
+
+*** creat branch ***
+git status
+git branch dev
+git checkout dev
+git add xxxx.py
+git commit -m "any comment"
+git push -u origin dev
+
+
+*** merge branch ***
+git checkout master
+git status
+git diff master dev
+git merge dev
+git checkout dev
+git push
+
+
+*** delete branch (local & remote) ***
+# if branch remain at local
+git fetch --prune
+
+git checkout master
+git branch -a
+git branch -d dev1
+git push --delete origin dev1
+
+git branch --delete dev1
+#ignore whether merge or not
+git branch -D dev1
+
+
+*** add gitignore ***
+vi .gitignore
+    *.swp
+    /path/to/file.txt # add
+        Esc :wq! enter
+
+git rm --cached /path/to/file.txt
+git add .gitignore
+git commit -m "add file to .gitignore"
+git push origin master
+
+*** open new repo ***
+"""
+Click 'New repogitory' @ github.com and creat repo as you like
+Then click 'Clone or download'
+Check 'https://github.com/xxxx/xxxx.git'
+"""
+
+mkdir newfolder
+cd newfolder
+git init
+vi .gitignore
+git config --list
+
+git remote add origin https://github.com/xxx/xxx.git
+# git remote add origin https://github.com/takatogoto/machinelearning.git
+
+git pull origin master
+
+
+
+*** change repo name ***
+"""
+Click 'Edit' @ github.com/***/***.git
+Then click 'Setting'
+Enter at Repository name
+"https://github.com/xxxx/xxxx.git'
+"""
+vi .git/config
+"""
+change URL
+"""
+git pull origin master
