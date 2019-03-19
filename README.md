@@ -6,8 +6,7 @@ https://qiita.com/Qiita/items/c686397e4a0f4f11683d
 
 ## Install Ubuntu on Virtual Box
 ### Windows に Virtual Boxをインストール
-参考：  
-https://eng-entrance.com/virtualbox-install  
+参考：https://eng-entrance.com/virtualbox-install  
 [公式ページ](https://www.virtualbox.org/)からダウンロードしてインストール。
 
 ### Ubuntu をインストール
