@@ -46,6 +46,9 @@ conda upgrade --all
 **
 https://stackoverflow.com/questions/49092807/when-conda-install-django-permissionerror13-permission-denied
 
+**便利帳
+https://qiita.com/skcvim/items/84634fbd134fbcd25296
+
 
 
 ----CUDAインストール-> 9.0を強く推奨----------------------------------------------------------------
