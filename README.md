@@ -2,7 +2,7 @@
 
 ## Install Ubuntu on Virtual Box
 ----システムセットアップ->定期的に実行!------------------------------------------------------------  
-'''sudo apt-get update'''  
+~~~sudo apt-get update~~~  
 sudo apt-get upgrade
 
 
