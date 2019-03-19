@@ -1,13 +1,14 @@
 # pystudy
 編集するために参考にしたページ
 https://gist.github.com/mignonstyle/083c9e1651d7734f84c99b8cf49d57fa
-https://gist.github.com/wate/7072365
-
+https://gist.github.com/wate/7072365  
+https://qiita.com/Qiita/items/c686397e4a0f4f11683d
 
 ## Install Ubuntu on Virtual Box
 ### Windows に Virtual Boxをインストール
 参考：  
-[https://eng-entrance.com/virtualbox-install](https://eng-entrance.com/virtualbox-install)  
+https://eng-entrance.com/virtualbox-install  
+[公式ページ](https://www.virtualbox.org/)
 
 ### Ubuntu をインストール
 
