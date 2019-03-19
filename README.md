@@ -34,6 +34,6 @@ aを押す　→　編集モードに入る
 `sudo /bin/cp /etc/skel/.bashrc ~/`  
 `source ~/.bashrc`
 
-----共有フォルダの設定（結構厄介だった）------------------------------------------------------------ 
+----共有フォルダの設定（結構厄介だった）------------------------------------------------------------  
 https://web-dev.hatenablog.com/entry/etc/virtualbox/ubuntu16-shared-folder  
 https://www.tecmint.com/install-virtualbox-guest-additions-in-ubuntu/  
