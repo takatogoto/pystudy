@@ -25,7 +25,7 @@ http://releases.ubuntu.com/
 `sudo vim ~/.bashrc`  
 aを押す　→　編集モードに入る  
 
-編集がおわったら、escを押して、  
+編集がおわったら、escを押してコマンドモードへ、  
 `:q!` → 保存せずに終了。  
 `:wq!` →　保存して終了。  
 
@@ -33,7 +33,8 @@ aを押す　→　編集モードに入る
 **万が一、謎の症状に見舞われた場合、以下のおまじないを唱えて、bashrcを復活させる。  
 パス情報を含めて、すべての設定がリセットされる。  
 `sudo /bin/cp /etc/skel/.bashrc ~/`  
-`source ~/.bashrc`
+`source ~/.bashrc`  
+参考：https://qiita.com/hide/items/5bfe5b322872c61a6896
 
 ----共有フォルダの設定（結構厄介だった）------------------------------------------------------------  
 https://web-dev.hatenablog.com/entry/etc/virtualbox/ubuntu16-shared-folder  
