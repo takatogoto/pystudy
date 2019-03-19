@@ -1,6 +1,12 @@
 # pystudy
+編集するために参考にしたページ
+https://gist.github.com/mignonstyle/083c9e1651d7734f84c99b8cf49d57fa
+https://gist.github.com/wate/7072365
+
 
 ## Install Ubuntu on Virtual Box
+
+
 ----システムセットアップ->定期的に実行!------------------------------------------------------------  
 `sudo apt-get update`  
 `sudo apt-get upgrade`
@@ -20,5 +26,5 @@ aを押す　→　編集モードに入る
 
 **万が一、謎の症状に見舞われた場合、以下のおまじないを唱えて、bashrcを復活させる。  
 パス情報を含めて、すべての設定がリセットされる。  
-`sudo /bin/cp /etc/skel/.bashrc ~/`
+`sudo /bin/cp /etc/skel/.bashrc ~/`  
 `source ~/.bashrc`
