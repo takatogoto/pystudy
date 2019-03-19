@@ -40,7 +40,7 @@ https://web-dev.hatenablog.com/entry/etc/virtualbox/ubuntu16-shared-folder
 https://www.tecmint.com/install-virtualbox-guest-additions-in-ubuntu/  
 
 ## Anacondaでいろいろ
-----プロジェクト毎に仮想環境を作ると依存関係が便利------------------------------------------------------------ 
+----プロジェクト毎に仮想環境を作るとライブラリの依存関係が便利------------------------------------------------------------ 
 https://qiita.com/tackey/items/a5e1ab29c8152fcc5da6  
 https://qiita.com/caad1229/items/325ca5c8ad198b0ebce7  
 https://qiita.com/fiftystorm36/items/b2fd47cf32c7694adc2e  
