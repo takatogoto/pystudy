@@ -7,7 +7,7 @@ https://gist.github.com/wate/7072365
 ## Install Ubuntu on Virtual Box
 ### Windows に Virtual Boxをインストール
 参考：  
-https://eng-entrance.com/virtualbox-install  
+[https://eng-entrance.com/virtualbox-install](https://eng-entrance.com/virtualbox-install)  
 
 ### Ubuntu をインストール
 
