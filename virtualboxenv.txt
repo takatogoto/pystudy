@@ -1,2 +1,5 @@
+## how to install
+https://eng-entrance.com/virtualbox-install
 
+## 共有フォルダ設定
 https://web-dev.hatenablog.com/entry/etc/virtualbox/ubuntu16-shared-folder
