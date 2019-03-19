@@ -1,0 +1,2 @@
+
+https://web-dev.hatenablog.com/entry/etc/virtualbox/ubuntu16-shared-folder
