@@ -123,8 +123,11 @@ make clean && make
 sudo apt-get update
 sudo apt-get install libcupti-dev
 
+**anacondaで仮想環境構築(tensorflowのところは好きな名前に)
 conda create -n tensorflow anaconda
-source activate tensorflow
+conda activate tensorflow
+****仮想環境終了時
+conda deactivate tensorflow
 
 **opencvは、引き継がれないので、以下のコマンドで仮想環境に個別インストール
 conda install opencv
