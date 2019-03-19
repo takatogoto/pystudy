@@ -5,6 +5,11 @@ https://gist.github.com/wate/7072365
 
 
 ## Install Ubuntu on Virtual Box
+### Windows に Virtual Boxをインストール
+参考：  
+https://eng-entrance.com/virtualbox-install  
+
+### Ubuntu をインストール
 
 
 ----システムセットアップ->定期的に実行!------------------------------------------------------------  
@@ -28,3 +33,7 @@ aを押す　→　編集モードに入る
 パス情報を含めて、すべての設定がリセットされる。  
 `sudo /bin/cp /etc/skel/.bashrc ~/`  
 `source ~/.bashrc`
+
+----共有フォルダの設定（結構厄介だった）------------------------------------------------------------ 
+https://web-dev.hatenablog.com/entry/etc/virtualbox/ubuntu16-shared-folder  
+https://www.tecmint.com/install-virtualbox-guest-additions-in-ubuntu/  
