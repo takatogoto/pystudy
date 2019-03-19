@@ -8,10 +8,11 @@ https://qiita.com/Qiita/items/c686397e4a0f4f11683d
 ### Windows に Virtual Boxをインストール
 参考：  
 https://eng-entrance.com/virtualbox-install  
-[公式ページ](https://www.virtualbox.org/)
+[公式ページ](https://www.virtualbox.org/)からダウンロードしてインストール。
 
 ### Ubuntu をインストール
-
+http://releases.ubuntu.com/  
+からお好みのバージョン（18.04 or 16.04 とか32 or 64とか）のISOファイルをダウンロード。
 
 ----システムセットアップ->定期的に実行!------------------------------------------------------------  
 `sudo apt-get update`  
