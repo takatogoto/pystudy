@@ -36,9 +36,14 @@ aを押す　→　編集モードに入る
 `source ~/.bashrc`  
 参考：https://qiita.com/hide/items/5bfe5b322872c61a6896
 
-----共有フォルダの設定（結構厄介だった）------------------------------------------------------------  
+----共有フォルダの設定（結構厄介、まだできてない）------------------------------------------------------------  
 https://web-dev.hatenablog.com/entry/etc/virtualbox/ubuntu16-shared-folder  
 https://www.tecmint.com/install-virtualbox-guest-additions-in-ubuntu/  
+https://qiita.com/haseken/items/982c5369988636991a4a  
+https://qiita.com/SUZUKI_Masaya/items/3444a010cf9903a088b3  
+https://unofficialtokyo.com/2018/12/virtualbox-ubuntu1804-on-windows/  
+https://www.souichi.club/technology/virtualbox-share/  
+https://note.mu/gkz74/n/n774da4725f7e  
 
 ## Anacondaでいろいろ
 ----プロジェクト毎に仮想環境を作るとライブラリの依存関係が便利------------------------------------------------------------ 
