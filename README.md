@@ -44,6 +44,8 @@ https://qiita.com/SUZUKI_Masaya/items/3444a010cf9903a088b3
 https://unofficialtokyo.com/2018/12/virtualbox-ubuntu1804-on-windows/  
 https://www.souichi.club/technology/virtualbox-share/  
 https://note.mu/gkz74/n/n774da4725f7e  
+https://www.hiroom2.com/2016/05/11/ubuntu-16-04%E3%81%ABsamba%E3%82%92%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%81%97%E3%81%A6windows-10%E3%81%A8%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E5%85%B1%E6%9C%89%E3%81%99%E3%82%8B/  
+`sudo apt-get install -y samba`  
 
 ## Anacondaでいろいろ
 ----プロジェクト毎に仮想環境を作るとライブラリの依存関係が便利------------------------------------------------------------ 
