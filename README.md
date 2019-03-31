@@ -55,3 +55,7 @@ https://qiita.com/fiftystorm36/items/b2fd47cf32c7694adc2e
 
 https://www.anaconda.com/tensorflow-in-anaconda/
 
+`conda create -n env_name tensorflow`or 
+`conda create -n env_name tensorflow-gpu` 
+`conda activate env_name`  
+`conda install -c anaconda jupyter`  
