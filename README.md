@@ -58,4 +58,12 @@ https://www.anaconda.com/tensorflow-in-anaconda/
 `conda create -n env_name tensorflow`or 
 `conda create -n env_name tensorflow-gpu` 
 `conda activate env_name`  
-`conda install -c anaconda jupyter`  
+`conda install -c anaconda jupyter`
+
+## Nvidia
+------> 以下のコマンドで、GPU稼働率が2秒毎に可視化できる。  
+`watch nvidia-smi`  
+
+---if error  
+https://devtalk.nvidia.com/default/topic/1025694/cuda-setup-and-installation/error-when-running-nvidia-smi-with-vidia-smi-couldn-t-find-libnvidia-ml-so-library-/
+
