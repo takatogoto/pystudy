@@ -67,3 +67,5 @@ https://www.anaconda.com/tensorflow-in-anaconda/
 ---if error  
 https://devtalk.nvidia.com/default/topic/1025694/cuda-setup-and-installation/error-when-running-nvidia-smi-with-vidia-smi-couldn-t-find-libnvidia-ml-so-library-/
 
+---CUDA、cuDNN、tensorflowの互換性  
+https://www.tensorflow.org/install/source#tested_build_configurations
