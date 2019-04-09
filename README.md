@@ -72,4 +72,9 @@ https://www.tensorflow.org/install/source#tested_build_configurations
 ---CUDAのバージョン確認
 `nvcc --version`  
 https://medium.com/@changrongko/nv-how-to-check-cuda-and-cudnn-version-e05aa21daf6c  
-`cat /usr/include/cudnn.h | grep CUDNN_MAJOR -A 2`
+`cat /usr/include/cudnn.h | grep CUDNN_MAJOR -A 2`  
+
+
+## Tensorflow
+バージョン確認
+`python -c 'import tensorflow as tf; print(tf.__version__)'`  
