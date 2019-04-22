@@ -80,7 +80,7 @@ https://medium.com/@changrongko/nv-how-to-check-cuda-and-cudnn-version-e05aa21da
 `python -c 'import tensorflow as tf; print(tf.__version__)'`  
 
 # Embed
-[![Style Gan on Album Covers](https://img.youtube.com/vi/8a0zIEanp6A&feature=youtu.be/0.jpg)](https://www.youtube.com/watch?v=8a0zIEanp6A&feature=youtu.be)
+[![Style Gan on Album Covers](https://img.youtube.com/vi/8a0zIEanp6A&feature=youtu.be/1.jpg)](https://www.youtube.com/watch?v=8a0zIEanp6A&feature=youtu.be)
 ## two
 ### three
 #### four
