@@ -79,16 +79,17 @@ https://medium.com/@changrongko/nv-how-to-check-cuda-and-cudnn-version-e05aa21da
 バージョン確認
 `python -c 'import tensorflow as tf; print(tf.__version__)'`  
 
-# Test
-Music Album Cover Generation from Music Track with Condtional Generative Adversial Networka
+# Music Album Cover Generation from Music Track with Conditional Generative Adversarial Network
 ## Introduction
 ### Goals
 ### Challenges
 ## Problem Formulation
 ### Encoding function
-### GAN Architecture and training parameters
-
+### GAN Architectures
+## Conditional GAN
+### Styel GAN
 [![Style Gan on Album Covers](https://img.youtube.com/vi/8a0zIEanp6A&feature=youtu.be/1.jpg)](https://www.youtube.com/watch?v=8a0zIEanp6A&feature=youtu.be)
-## two
-### three
-#### four
+## Discussion & Conclusion
+
+
+
