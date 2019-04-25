@@ -80,15 +80,27 @@ https://medium.com/@changrongko/nv-how-to-check-cuda-and-cudnn-version-e05aa21da
 `python -c 'import tensorflow as tf; print(tf.__version__)'`  
 
 # Music Album Cover Generation from Music Track with Conditional Generative Adversarial Network
+Go Deep or Go home  
+Anna Nadtochiy, Iordanis Fostiropoulos, Syamil Mohd Razak, Takato Goto
+University of Southern California, Los Angeles, CA, USA  
+{nadtochi, fostirop, mohdraza, tgoto}@usc.edu  
 ## Introduction
 ### Goals
-### Challenges
-## Problem Formulation
-### Encoding function
-### GAN Architectures
-## Conditional GAN
-### Styel GAN
+### Problem Formulation
+
+## Framework
+### Encoding function $$ \Phi $$
+### Conditional GAN
+
+## Encoding functions
+### Various dimensionality reduction techniques are used to identify groups/genres in music tracks
+
+## GAN Architectures
+### Various GANs have been tested to see if they have the capacity to represent and generate complex unstructured images
 [![Style Gan on Album Covers](https://img.youtube.com/vi/8a0zIEanp6A&feature=youtu.be/.jpg)](https://www.youtube.com/watch?v=8a0zIEanp6A&feature=youtu.be)
+
+### Conditional GAN
+
 ## Discussion & Conclusion
 
 
