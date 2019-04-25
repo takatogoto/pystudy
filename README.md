@@ -89,7 +89,7 @@ University of Southern California, Los Angeles, CA, USA
 ### Problem Formulation
 
 ## Framework
-### Encoding function \Phi
+### Encoding function &Phi;
 ### Conditional GAN
 
 ## Encoding functions
