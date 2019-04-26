@@ -122,10 +122,40 @@ Music track, represented as spectrogram, classified into 8 distinct genres using
 ## GAN Architectures
 ### Various GANs have been tested to see if they have the capacity to represent and generate complex unstructured images
 [![Style Gan on Album Covers](https://img.youtube.com/vi/8a0zIEanp6A&feature=youtu.be/.jpg)](https://www.youtube.com/watch?v=8a0zIEanp6A&feature=youtu.be)
+WGAN-GP (64x64)  
+![12](https://user-images.githubusercontent.com/42685217/56785149-b1ffaa80-67a8-11e9-9315-8d212ab60c37.png)
+DCGAN (64x64) 
+![13](https://user-images.githubusercontent.com/42685217/56785151-b330d780-67a8-11e9-8da6-a052b5adb428.png)
+WGAN-G adn DCGAN produce abstract shapes  
+Style GAN (256x256) 
+![14](https://user-images.githubusercontent.com/42685217/56785159-b62bc800-67a8-11e9-9cfd-8c40f7db8623.png)
+The most realistic looking compared to all other architectures, produces file details (faces, text)  
+
+Cover albums stored by proximity according to t-SNE.
+![15](https://user-images.githubusercontent.com/42685217/56785163-b9bf4f00-67a8-11e9-9a21-4d72ea13018b.png)
+Album covers are arranged according to RGB colors and weakly by structures and not by the genre they belong to.  
 
 ### Conditional GAN
+We modified WGAN and Style GAN to take condition (i.e. music features) as input.
+![16](https://user-images.githubusercontent.com/42685217/56785338-98ab2e00-67a9-11e9-9d2f-84344b7a8508.png)
+Architecture of a conditional GAN that we adopt to introduce a conditioning vector of music track in reduced dimension
+![17](https://user-images.githubusercontent.com/42685217/56785340-9b0d8800-67a9-11e9-9d7b-bb2f37037ee7.png)
+Album covers are assigned 4 arbitrary genres. The conditional GAN is trained, and the generator is fed with the conditioning vector (genre) and random noise vector. The generated image is labeled and visualized in 3D with all album covers.  
 
-## Discussion & Conclusion
+
+## Discussion
+- Relationship between music tracks and album covers may not exist, very complex or is not made obvious through the analysis we have performed
+- As a result, the images generated conditioned on either low dimensional representation of music track or arbitrary groups assigned to album covers do not belong to the same distribution as the original groups
+- Due to the (perhaps) non-existent relationship between music track and album covers, it’s not as straight-forward to validate if the conditioning has actually worked
+
+## Conclusion
+- Style GAN can effectively represent complex unstructured images of album covers
+- Album covers can be clustered according to RGB color or high-level drawing style, but not the album genre
+- Music tracks can be classified by genres and represented in lower dimension effectively
 
 
+### Dataset
+The dataset used in this project has been collected through Spotify API and includes 50,000 high resolution (640x640) cover album and corresponding music 30 sec. long tracs in mp3 format. Dataset also includes extracted attributes such as danceability, energy, loudness, speechiness, etc. Available at https://drive.google.com/file/d/1nmurIZw8cyrfziCH5d6WOrxRBriT0Oet/view
 
+### Reference
+Scott E. Reed, Zeynep Akata, Xinchen Yan, Lajanugen Logeswaran, Bernt Schiele, and Honglak Lee.Generative adversarial text to image synthesis.CoRR, abs/1605.05396, 2016.
