@@ -102,6 +102,8 @@ Generate complex and divers album covers
 
 ## Encoding functions
 ### Various dimensionality reduction techniques are used to identify groups/genres in music tracks
+1. Reduce  
+2. Using  
 
 ## GAN Architectures
 ### Various GANs have been tested to see if they have the capacity to represent and generate complex unstructured images
