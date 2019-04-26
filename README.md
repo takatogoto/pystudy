@@ -158,4 +158,8 @@ Album covers are assigned 4 arbitrary genres. The conditional GAN is trained, an
 The dataset used in this project has been collected through Spotify API and includes 50,000 high resolution (640x640) cover album and corresponding music 30 sec. long tracs in mp3 format. Dataset also includes extracted attributes such as danceability, energy, loudness, speechiness, etc. Available at https://drive.google.com/file/d/1nmurIZw8cyrfziCH5d6WOrxRBriT0Oet/view
 
 ### Reference
-Scott E. Reed, Zeynep Akata, Xinchen Yan, Lajanugen Logeswaran, Bernt Schiele, and Honglak Lee.Generative adversarial text to image synthesis.CoRR, abs/1605.05396, 2016.
+Scott E. Reed, Zeynep Akata, Xinchen Yan, Lajanugen Logeswaran, Bernt Schiele, and Honglak Lee.Generative adversarial text to image synthesis.CoRR, abs/1605.05396, 2016.  
+WGAN-GP  https://github.com/shaohua0116/WGAN-GP-TensorFlow  
+StyleGAN  https://github.com/NVlabs/stylegan  
+DCGAN  https://github.com/carpedm20/DCGAN-tensorflow  
+Genre classification  https://github.com/Jonalkn/CS230_FINAL_PROJECT
