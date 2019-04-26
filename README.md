@@ -113,7 +113,7 @@ Samples of album covers from two distinct groups of genre show similarities of f
 ![07](https://user-images.githubusercontent.com/42685217/56784693-bd51d680-67a6-11e9-92cc-0e90c2e42531.png)
 Raw mp3 files encoded in lower dimension as a compact representation of the music track. Different genres are shown in different colors.  
 ![08](https://user-images.githubusercontent.com/42685217/56784762-09048000-67a7-11e9-9972-b9be9cbbe5eb.png)
-![09](https://user-images.githubusercontent.com/42685217/56784763-0ace4380-67a7-11e9-82cb-045b5be37038.png)
+![09](https://user-images.githubusercontent.com/42685217/56784910-cabb9080-67a7-11e9-8c10-6d85f53af355.png)
 Features extracted by LibROSA are reduced in dimension using an auto-encoder. Features can be split into 4 clusters (different color).  
 ![10](https://user-images.githubusercontent.com/42685217/56784831-64367280-67a7-11e9-8c0b-76e29602767e.png)
 ![11](https://user-images.githubusercontent.com/42685217/56784833-66003600-67a7-11e9-97b1-72521930f838.png)
