@@ -81,17 +81,24 @@ https://medium.com/@changrongko/nv-how-to-check-cuda-and-cudnn-version-e05aa21da
 
 # Music Album Cover Generation from Music Track with Conditional Generative Adversarial Network
 Go Deep or Go home  
-Anna Nadtochiy, Iordanis Fostiropoulos, Syamil Mohd Razak, Takato Goto
+Anna Nadtochiy, Iordanis Fostiropoulos, Syamil Mohd Razak, Takato Goto  
 University of Southern California, Los Angeles, CA, USA  
 {nadtochi, fostirop, mohdraza, tgoto}@usc.edu  
 ## Introduction
 ### Goals
+Larn the relationship between the songs and the album covers as the visual  
+Generate album covers conditioned to a music track
 ![Samples of cover albums from two distinct groups genre show similarities of features and styles within each genre. Death metal music and jazz music are undeniably distinct.](https://user-images.githubusercontent.com/42685217/56783671-b96f8580-67a1-11e9-9ded-6a0b57aa3a73.png)
 ### Problem Formulation
+![02](https://user-images.githubusercontent.com/42685217/56784100-d60cbd00-67a3-11e9-86f5-8c2dda3901fb.png)
 
 ## Framework
-### Encoding function &Phi;
+### Encoding function &Phi;  
+Extract features from music track to be used as conditional data
 ### Conditional GAN
+Condition on music track features  
+Generate complex and divers album covers  
+![03](https://user-images.githubusercontent.com/42685217/56784170-179d6800-67a4-11e9-9048-efe36271e073.png)
 
 ## Encoding functions
 ### Various dimensionality reduction techniques are used to identify groups/genres in music tracks
