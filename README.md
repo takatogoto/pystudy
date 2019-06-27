@@ -62,6 +62,11 @@ https://www.anaconda.com/tensorflow-in-anaconda/
 `conda install -c anaconda jupyter`
 
 ## Nvidia
+----GPUの情報確認  
+`lspci | grep -i nvidia`  
+ちなみにCPUは  
+`sudo lshw -class processor`  
+
 ------> 以下のコマンドで、GPU稼働率が2秒毎に可視化できる。  
 `watch nvidia-smi`  
 
@@ -73,6 +78,7 @@ https://www.tensorflow.org/install/source#tested_build_configurations
 ---CUDAのバージョン確認
 `nvcc --version`  
 https://medium.com/@changrongko/nv-how-to-check-cuda-and-cudnn-version-e05aa21daf6c  
+---cuDNNのバージョン確認
 `cat /usr/include/cudnn.h | grep CUDNN_MAJOR -A 2`  
 
 
