@@ -62,11 +62,11 @@ https://www.anaconda.com/tensorflow-in-anaconda/
 `conda install -c anaconda jupyter`  
 
 
-カーネル表示
-`jupyter kernelspec list`
-追加したい環境をアクティベート
-`activate test`
-カーネルを追加
+カーネル表示  
+`jupyter kernelspec list`  
+追加したい環境をアクティベート  
+`activate test`  
+カーネルを追加  
 `ipython kernel install --user --name=test --display-name=test`
 
 
