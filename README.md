@@ -61,7 +61,7 @@ https://www.anaconda.com/tensorflow-in-anaconda/
 `conda activate env_name`  
 `conda install -c anaconda jupyter`  
 
-
+----作成した仮想環境をjupyterのカーネルに追加できる  
 カーネル表示  
 `jupyter kernelspec list`  
 追加したい環境をアクティベート  
@@ -93,5 +93,5 @@ https://medium.com/@changrongko/nv-how-to-check-cuda-and-cudnn-version-e05aa21da
 
 
 ## Tensorflow
-バージョン確認
+バージョン確認  
 `python -c 'import tensorflow as tf; print(tf.__version__)'`  
