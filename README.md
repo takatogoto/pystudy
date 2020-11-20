@@ -59,7 +59,17 @@ https://www.anaconda.com/tensorflow-in-anaconda/
 `conda create -n env_name tensorflow-gpu`  
 `conda create -n env_name python=2.7 anaconda`  
 `conda activate env_name`  
-`conda install -c anaconda jupyter`
+`conda install -c anaconda jupyter`  
+
+
+カーネル表示
+`jupyter kernelspec list`
+追加したい環境をアクティベート
+`activate test`
+カーネルを追加
+`ipython kernel install --user --name=test --display-name=test`
+
+
 
 ## Nvidia
 ----GPUの情報確認  
