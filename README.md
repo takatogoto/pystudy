@@ -97,4 +97,7 @@ https://medium.com/@changrongko/nv-how-to-check-cuda-and-cudnn-version-e05aa21da
 `python -c 'import tensorflow as tf; print(tf.__version__)'`  
 
 ## VM and VScode
-https://qiita.com/niba2828/items/52bd7c54f19ac54695bb
+https://qiita.com/niba2828/items/52bd7c54f19ac54695bb  
+https://python.kirikutitarou.com/2019/07/vs-code-ssh.html  
+https://ja.stackoverflow.com/questions/48705/vscode%E3%81%A7%E4%BB%AE%E6%83%B3%E3%83%9E%E3%82%B7%E3%83%B3%E4%B8%8A%E3%81%AEpython%E3%82%92%E5%88%A9%E7%94%A8%E3%81%97%E3%81%9F%E3%81%84  
+
