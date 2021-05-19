@@ -95,3 +95,6 @@ https://medium.com/@changrongko/nv-how-to-check-cuda-and-cudnn-version-e05aa21da
 ## Tensorflow
 バージョン確認  
 `python -c 'import tensorflow as tf; print(tf.__version__)'`  
+
+## VM and VScode
+https://qiita.com/niba2828/items/52bd7c54f19ac54695bb
